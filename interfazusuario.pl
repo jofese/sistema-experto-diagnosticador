@@ -118,7 +118,7 @@ tratamiento(X):- send(@lblExp1,selection('De Acuerdo Al Diagnostico El Tratamien
         new(@salir,button('SALIR',and(message(@main,destroy),message(@main,free)))),
         new(@boton, button('Iniciar consulta',message(@prolog, botones))),
 
-        new(@btntratamiento,button('¿Tratamiento?')),
+        new(@btntratamiento,button('Â¿Tratamiento?')),
 
         nueva_imagen(@main, img_principal),
         send(@main, display,@boton,point(138,450)),
